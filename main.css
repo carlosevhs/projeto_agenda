@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #a5a3a348;
+    padding-top: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+header img{
+    height: 48px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline-color: blue;
+    padding: 8px;
+}
+form input:hover{
+    background-color: rgba(0, 255, 255, 0.13);
+}
+
+form button{
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+form button:hover {
+    background-color: rgb(63, 63, 248);
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid #0000003b;
+}
+
